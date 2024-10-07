@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 # Classified Credentials
-private/API_KEY.js
+# private/API_KEY.js
 # private/SESSION_ID.js
 # private/DS_Store
