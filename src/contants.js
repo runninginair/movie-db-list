@@ -22,3 +22,5 @@ export const TABS = {
   LIKED: "LIKED",
   RATED: "RATED",
 };
+
+export const PROMPT_MESSAGE = "Please log in to display and manage your data.";

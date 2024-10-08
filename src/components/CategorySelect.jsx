@@ -29,7 +29,20 @@ const GategoryContainer = styled.div`
   justify-content: end;
   align-items: center;
   background-color: rgb(245, 255, 255);
-  padding: 3px 23px;
-  font-size: 1.2rem;
+  color: navy;
+  padding: 2px 23px;
   column-gap: 10px;
+
+  select {
+    width: 180px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: lightyellow;
+    border-radius: 18px;
+    padding-left: 12px;
+    cursor: pointer;
+  }
+  p {
+    font-size: 1.4rem;
+  }
 `;

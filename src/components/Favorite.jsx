@@ -3,6 +3,7 @@ import { useAuth } from "./AuthContext";
 import { loadFavoriteMovies } from "../apis/loadFavoriteMovies";
 import MovieCardList from "./MovieCardList";
 import Pagination from "./Pagination";
+import { PROMPT_MESSAGE } from "../contants";
 import styled from "styled-components";
 
 
@@ -34,7 +35,7 @@ export default function Favorite() {
     return (
       <FavorContainer>
         <h3>FAVORITE MOVIES</h3>
-        <h4>Please login to get more information.</h4>
+        <h4>{PROMPT_MESSAGE}</h4>
       </FavorContainer>
     );
   }
@@ -49,8 +50,8 @@ export default function Favorite() {
         setCurrentPage={setCurrentPage}
       />
 
-      <MovieCardList 
-        movies={favoriteMovies} 
+      <MovieCardList
+        movies={favoriteMovies}
       /><br /><br />
 
       <Pagination
@@ -74,4 +75,12 @@ const FavorContainer = styled.div`
     font-size: 1.8em;
     color: navy;
   }
+
+  h4 {
+    font-size: 1.9em;
+    font-weight: 300;
+    margin-top: 160px;
+    margin-bottom: 320px;
+  }
+  
 `;

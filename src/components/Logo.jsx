@@ -7,8 +7,7 @@ export default function Logo(props) {
     <LogoContainer>
       <img
         src={
-          "/public/moive-db-logo.svg"
-          // "/public/TMDB-logo-New.svg"
+          "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
         }
       />
     </LogoContainer>
@@ -17,5 +16,4 @@ export default function Logo(props) {
 
 const LogoContainer = styled.div`
   width: 150px; padding: 10px 20px;
-  // width: 230px; padding-left: 20px;
 `;

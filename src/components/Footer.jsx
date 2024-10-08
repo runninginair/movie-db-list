@@ -8,9 +8,9 @@ export default function () {
       <footer>
         <p>
           <span> © Copyright Reserved. </span>
-          <span> Author: Jin Zhang | Email: </span>
-          <a href="mailto:zhang.jin.wa@outlook.com">
-            zhang.jin.wa@outlook.com
+          <span> Author: Jin Z. | Email: </span>
+          <a href="mailto:runninginair@gmail.com">
+            Runninginair@G-mail
           </a>
         </p>
       </footer>
@@ -20,11 +20,20 @@ export default function () {
 
 const FootContainer = styled.footer`
   display: flex;
-  flex-direction: column; /* 改为列方向 */
-  justify-content: center; /* 垂直方向居中 */
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: gray;
-  color: white;
-  font-size: 10px;
+  color: lightgray;
+  font-size: 12px;
+  padding: 12px;
   margin-top: 30px;
+
+  background: 
+    linear-gradient(to top, navy, lightgreen),
+    linear-gradient(to bottom, navy, green),
+    linear-gradient(to left, navy, lightyellow),
+    linear-gradient(to right, navy, yellow);
+  a {
+    color: lightgray;
+  }
 `;
